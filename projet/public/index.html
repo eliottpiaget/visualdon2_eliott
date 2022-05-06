@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saisie de drogue évolution</title>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <style>
+        html, body { margin: 0; height: 100%; background-color: #ffffff;}
+        h1, h2 {
+            position: relative;
+            font: 40px sans-serif, bold;
+        }
+        slidecontainer {
+    width: 100%;
+}
+h3{
+    position:relative;
+    font: 20px sans-serif, bold;
+}
+#year {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            line-height: 150px;
+            border: solid #676767 1px;
+            border-radius: 50%;
+            font-family: 'Red Hat Display', sans-serif;
+            font-size: 50px;
+            color: #676767;
+            text-align: center;
+            background: #cdcdcd;
+            left: 45vw;
+            bottom: 20px;
+        }
+.slider {
+    position: absolute;
+    -webkit-appearance: none;
+    width: 65%;
+    height: 25px;
+    background: #8fbea6;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #21e787;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #b13c3c;
+    cursor: pointer;
+}
+circle {
+  fill: steelblue;
+  fill-opacity: .6;
+  stroke: #fff;
+}
+
+ </style>
+</head>
+<body>
+       <h1>Saisie de drogue évolution</h1>
+       <iframe width="420" height="345" src="https://www.youtube.com/embed/UB5beRjAKmk?controls=0">
+    </iframe>
+       <div class="slidecontainer">
+  
+        <input type="range" min="2012" max="2016" step="1" value="2012" class="slider" id="slider">
+        <br>
+        <h3>Année: <span id="demo"></span></h3>
+      </div>
+      
+   
+  
+     
+      
+   <div id="map"></div>
+   <h2 class="year"></h2>
+   <svg width="600" height="500"></svg>
+
