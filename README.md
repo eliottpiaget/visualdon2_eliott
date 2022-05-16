@@ -13,3 +13,6 @@ The Global Initiative Against Transnational Organized Crime ont utilisé ces don
 
 #### Wireframe
 https://github.com/eliottpiaget/visualdon2_eliott/blob/main/EliottPiaget_Wireframe.pdf
+
+#### Présentation Canva
+https://www.canva.com/design/DAFALTI4ygg/aQzPa8bVIdZRZggZrn4Jzg/view?utm_content=DAFALTI4ygg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
