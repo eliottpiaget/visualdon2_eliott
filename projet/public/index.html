@@ -1,32 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Saisie de drogue évolution</title>
     <link rel="shortcut icon" href="../assets/img/favicon.ico">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
     <style>
-        html, body { margin: 0; height: 100%; background-color: #ffffff;}
-        h1, h2 {
-            position: relative;
-            font: 40px sans-serif, bold;
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            background-color: #ffffff;
         }
-        slidecontainer {
-    width: 100%;
-}
-h3{
-    position:relative;
-    font: 20px sans-serif, bold;
-}
-#year {
+        
+        h1 {
+            position: relative;
+            font: 60px sans-serif, bold;
+            text-align: center;
+            color: #03A67A;
+        }
+        
+        h2 {
+            position: relative;
+            font: 30px sans-serif, bold;
+            text-align: center;
+            color: #03A67A;
+        }
+        
+        h3 {
+            position: relative;
+            font: 20px sans-serif, bold;
+            text-align: center;
+            color: #000000;
+        }
+        
+        p {
+            position: relative;
+            font: 20px sans-serif, bold;
+            text-align: center;
+            color: #212322;
+            padding-bottom: 20px;
+        }
+        
+        text {
+            font: 15px sans-serif, bold;
+        }
+        
+        #year {
             position: absolute;
             width: 150px;
             height: 150px;
             line-height: 150px;
-            border: solid #676767 1px;
+            border: solid #000000 1px;
             border-radius: 50%;
             font-family: 'Red Hat Display', sans-serif;
             font-size: 50px;
@@ -36,61 +65,93 @@ h3{
             left: 45vw;
             bottom: 20px;
         }
-.slider {
-    position: absolute;
-    -webkit-appearance: none;
-    width: 65%;
-    height: 25px;
-    background: #8fbea6;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-}
-
-.slider:hover {
-    opacity: 1;
-}
-
-.slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    background: #21e787;
-    cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    background: #b13c3c;
-    cursor: pointer;
-}
-circle {
-  fill: steelblue;
-  fill-opacity: .6;
-  stroke: #fff;
-}
-
- </style>
+        
+        .slider {
+            margin-left: 20%;
+            position: absolute;
+            -webkit-appearance: none;
+            width: 65%;
+            height: 25px;
+            background: #000000;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+        }
+        
+        .slider:hover {
+            opacity: 1;
+        }
+        
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: #03A67A;
+            cursor: pointer;
+        }
+        
+        .slider::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            background: #b13c3c;
+            cursor: pointer;
+        }
+        
+        circle {
+            fill-opacity: 0.85;
+            stroke: #fff;
+        }
+        
+        .iframe-container {
+            text-align: center;
+            width: 100%;
+            margin-bottom: 5%;
+            background-color: #03A67A;
+        }
+        
+        #couleurs {
+            font: 15px sans-serif, bold;
+            position: absolute;
+            text-align: left;
+            margin-left: 30px;
+            margin-top: 400px;
+        }
+    </style>
 </head>
+
 <body>
-       <h1>Saisie de drogue évolution</h1>
-       <iframe width="420" height="345" src="https://www.youtube.com/embed/UB5beRjAKmk?controls=0">
-    </iframe>
-       <div class="slidecontainer">
-  
+
+    <h1>L’évolution des saisies de
+        <br>drogue ces dernières années</h1>
+    <p>
+        Sur ce site vous allez découvrir l'évolution des saisies de drogue entre 2012 et 2016. <br>Les données ont été récupérées sur le site de l'UNODC"(L'Office des Nations unies contre les drogues et le crime).<br>
+    </p>
+    <div class="iframe-container"><iframe width="50%" height="450px" src="https://www.youtube.com/embed/IUEx8XnVii4">
+    </iframe></div>
+
+    <h2>Les drogues les plus saisies par pays entre 2012 et 2016</h2>
+
+    <p id="couleurs">Couleurs par type de drogue : <br><span style="color:pink">- ATS(Amphetamine type stimulant)</span><br>
+        <span style="color:green"> - Cannabis-type</span><br>
+        <span style="color:black"> - Cocaine-type</span><br>
+        <span style="color:blue"> - Hallucinogens</span><br>
+        <span style="color:red"> - Opioids</span><br>
+        <span style="color:Aqua"> - Non-specified</span><br>
+        <span style="color:grey"> - Other miscellaneous</span><br>
+        <span style="color:brown"> - Precursors</span><br>
+        <span style="color:orange"> - Sedatives and Tranquillizers</span><br>
+        <span style="color:SlateBlue"> - Solvents and Inhallants</span><br>
+        <span style="color:DarkBlue"> - Substances not under international control</span><br>
+    </p>
+
+
+    <div id="map"></div>
+
+    <div class="slidecontainer">
+
         <input type="range" min="2012" max="2016" step="1" value="2012" class="slider" id="slider">
         <br>
-        <h3>Année: <span id="demo"></span></h3>
-      </div>
-      
-   
-  
-     
-      
-   <div id="map"></div>
-   <h2 class="year"></h2>
-   <svg width="600" height="500"></svg>
-
+        <h2>Année: <span id="demo"></span></h2>
+    </div>

@@ -40,7 +40,7 @@ CD,-4.038333,21.758664,Congo [DRC],OR,43.804133,-120.554201,Oregon
 CF,6.611111,20.939444,Central African Republic,PA,41.203322,-77.194525,Pennsylvania
 CG,-0.228021,15.827659,Congo [Republic],PR,18.220833,-66.590149,Puerto Rico
 CH,46.818188,8.227512,Switzerland,RI,41.580095,-71.477429,Rhode Island
-CI,7.539989,-5.54708,Côte d'Ivoire,SC,33.836081,-81.163725,South Carolina
+CI,7.539989,-5.54708,Ivory Coast,SC,33.836081,-81.163725,South Carolina
 CK,-21.236736,-159.777671,Cook Islands,SD,43.969515,-99.901813,South Dakota
 CL,-35.675147,-71.542969,Chile,TN,35.517491,-86.580447,Tennessee
 CM,7.369722,12.354722,Cameroon,TX,31.968599,-99.901813,Texas
@@ -67,12 +67,11 @@ ES,40.463667,-3.74922,Spain,,,,
 ET,9.145,40.489673,Ethiopia,,,,
 FI,61.92411,25.748151,Finland,,,,
 FJ,-16.578193,179.414413,Fiji,,,,
-FK,-51.796253,-59.523613,Falkland Islands [Islas Malvinas],,,,
 FM,7.425554,150.550812,Micronesia,,,,
 FO,61.892635,-6.911806,Faroe Islands,,,,
 FR,46.227638,2.213749,France,,,,
 GA,-0.803689,11.609444,Gabon,,,,
-GB,55.378051,-3.435973,United Kingdom,,,,
+GB,55.378051,-3.435973,England,,,,
 GD,12.262776,-61.604171,Grenada,,,,
 GE,42.315407,43.356892,Georgia,,,,
 GF,3.933889,-53.125782,French Guiana,,,,
@@ -225,15 +224,13 @@ TW,23.69781,120.960515,Taiwan,,,,
 TZ,-6.369028,34.888822,Tanzania,,,,
 UA,48.379433,31.16558,Ukraine,,,,
 UG,1.373333,32.290275,Uganda,,,,
-UM,,,U.S. Minor Outlying Islands,,,,
-US,37.09024,-95.712891,United States,,,,
+US,37.09024,-95.712891,USA,,,,
 UY,-32.522779,-55.765835,Uruguay,,,,
 UZ,41.377491,64.585262,Uzbekistan,,,,
 VA,41.902916,12.453389,Vatican City,,,,
 VC,12.984305,-61.287228,Saint Vincent and the Grenadines,,,,
 VE,6.42375,-66.58973,Venezuela,,,,
 VG,18.420695,-64.639968,British Virgin Islands,,,,
-VI,18.335765,-64.896335,U.S. Virgin Islands,,,,
 VN,14.058324,108.277199,Vietnam,,,,
 VU,-15.376706,166.959158,Vanuatu,,,,
 WF,-13.768752,-177.156097,Wallis and Futuna,,,,
